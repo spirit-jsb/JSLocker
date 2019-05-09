@@ -1,5 +1,5 @@
 //
-//  JSLockerShadowView.swift
+//  JSShadowView.swift
 //  JSLocker
 //
 //  Created by Max on 2019/5/8.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class JSLockerShadowView: UIView {
+class JSShadowView: UIView {
     
     private struct Constants {
         static let shadowRadius: CGFloat = 4.0
