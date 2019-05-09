@@ -19,3 +19,10 @@ public enum JSObscureStyle: Int {
     case blur
     case dim
 }
+
+// MARK: JSDimmingViewType
+public enum JSDimmingViewType: Int {
+    case white = 1
+    case black
+    case none
+}
