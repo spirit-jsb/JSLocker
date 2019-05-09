@@ -13,3 +13,9 @@ public enum JSLockerPresentationDirection: Int {
     case down  // locker animated down from a top base
     case up    // locker animated up from a bottom base
 }
+
+// MARK: JSObscureStyle
+public enum JSObscureStyle: Int {
+    case blur
+    case dim
+}
