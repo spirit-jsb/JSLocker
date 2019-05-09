@@ -26,3 +26,24 @@ public enum JSDimmingViewType: Int {
     case black
     case none
 }
+
+// MAKR: JSSeparatorStyle
+public enum JSSeparatorStyle: Int {
+    case `default`
+    case shadow
+    
+    var color: UIColor {
+        switch self {
+        case .default:
+            return UIColor(hex: 0xE1E1E1)
+        case .shadow:
+            return UIColor.black.withAlphaComponent(0.3)
+        }
+    }
+}
+
+// MARK: JSSeparatorDirection
+public enum JSSeparatorDirection: Int {
+    case horizontal
+    case vertical
+}
