@@ -10,7 +10,7 @@ import UIKit
 
 class JSLockerTransitionAnimator: NSObject {
     
-    private  struct Constants {
+    private struct Constants {
         static let mimAnimationDuration: TimeInterval = 0.15
         static let maxAnimationDuration: TimeInterval = 0.25
         static let animationSpeed: CGFloat = 1300.0
