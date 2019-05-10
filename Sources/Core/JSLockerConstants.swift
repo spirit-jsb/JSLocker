@@ -47,3 +47,18 @@ public enum JSSeparatorDirection: Int {
     case horizontal
     case vertical
 }
+
+// MARK:
+public enum JSLockerResizingBehavior: Int {
+    case none
+    case dismiss
+    case dismissOrExpand
+}
+
+// MARK:
+@objc public protocol JSLockerControllerDelegate: class {
+    
+    @objc optional func lockerControllerDidChangeExpandedState(_ controller: JSLockerController)
+    @objc optional func lockerControllerWillDismiss(_ controller: JSLockerController)
+    @objc optional func lockerControllerDidDismiss(_ controller: JSLockerController)
+}
