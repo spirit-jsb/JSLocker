@@ -138,17 +138,3 @@ class LockerViewController: DemoViewController {
         self.dismiss(animated: false)
     }
 }
-/**
-class MSDrawerDemoController: DemoController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Show", style: .plain, target: self, action: #selector(barButtonTapped))
-        
- 
-    }
- 
-
-}
-
-*/
