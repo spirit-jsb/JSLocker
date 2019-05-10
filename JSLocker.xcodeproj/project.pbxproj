@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		502DCA142283B488009C50F5 /* JSLockerTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502DCA132283B488009C50F5 /* JSLockerTransitionAnimator.swift */; };
+		502DCA162283BEA5009C50F5 /* JSLockerPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502DCA152283BEA5009C50F5 /* JSLockerPresentationController.swift */; };
+		502DCA4B22841289009C50F5 /* UIView+JSLocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502DCA4822841289009C50F5 /* UIView+JSLocker.swift */; };
+		502DCA4C22841289009C50F5 /* CALayer+JSLocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502DCA4922841289009C50F5 /* CALayer+JSLocker.swift */; };
+		502DCA4D22841289009C50F5 /* UIColor+JSLocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502DCA4A22841289009C50F5 /* UIColor+JSLocker.swift */; };
+		502DCA54228412C6009C50F5 /* JSBlurringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502DCA4F228412C6009C50F5 /* JSBlurringView.swift */; };
+		502DCA55228412C6009C50F5 /* JSShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502DCA50228412C6009C50F5 /* JSShadowView.swift */; };
+		502DCA56228412C6009C50F5 /* JSDimmingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502DCA51228412C6009C50F5 /* JSDimmingView.swift */; };
+		502DCA57228412C6009C50F5 /* JSObscurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502DCA52228412C6009C50F5 /* JSObscurable.swift */; };
+		502DCA58228412C6009C50F5 /* JSSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502DCA53228412C6009C50F5 /* JSSeparator.swift */; };
+		502DCA5A228416D7009C50F5 /* JSLockerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502DCA59228416D7009C50F5 /* JSLockerController.swift */; };
+		502DCA5C22842CFA009C50F5 /* JSResizingHandleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502DCA5B22842CFA009C50F5 /* JSResizingHandleView.swift */; };
+		502DCA5E228516E9009C50F5 /* UIViewController+JSLocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502DCA5D228516E9009C50F5 /* UIViewController+JSLocker.swift */; };
+		502DCA60228551A9009C50F5 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502DCA5F228551A9009C50F5 /* DemoViewController.swift */; };
+		502DCA62228558A9009C50F5 /* LockerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502DCA61228558A9009C50F5 /* LockerViewController.swift */; };
 		503A33742282DB1600A501C1 /* JSLocker.h in Headers */ = {isa = PBXBuildFile; fileRef = 503A33632282DB1600A501C1 /* JSLocker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		503A337C2282DB3000A501C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503A33672282DB1600A501C1 /* LaunchScreen.storyboard */; };
 		503A337D2282DB3300A501C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503A33692282DB1600A501C1 /* Main.storyboard */; };
 		503A337E2282DB3800A501C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 503A336D2282DB1600A501C1 /* Assets.xcassets */; };
-		503A337F2282DB3B00A501C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503A336F2282DB1600A501C1 /* ViewController.swift */; };
 		503A33802282DB3E00A501C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503A33712282DB1600A501C1 /* AppDelegate.swift */; };
 		503A33822282DB9700A501C1 /* JSLocker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503A33412282DA5900A501C1 /* JSLocker.framework */; };
 		503A33832282DB9700A501C1 /* JSLocker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 503A33412282DA5900A501C1 /* JSLocker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		503A338B2282DF0900A501C1 /* JSLockerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503A338A2282DF0900A501C1 /* JSLockerConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +57,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		502DCA132283B488009C50F5 /* JSLockerTransitionAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSLockerTransitionAnimator.swift; sourceTree = "<group>"; };
+		502DCA152283BEA5009C50F5 /* JSLockerPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSLockerPresentationController.swift; sourceTree = "<group>"; };
+		502DCA4822841289009C50F5 /* UIView+JSLocker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+JSLocker.swift"; sourceTree = "<group>"; };
+		502DCA4922841289009C50F5 /* CALayer+JSLocker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+JSLocker.swift"; sourceTree = "<group>"; };
+		502DCA4A22841289009C50F5 /* UIColor+JSLocker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+JSLocker.swift"; sourceTree = "<group>"; };
+		502DCA4F228412C6009C50F5 /* JSBlurringView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSBlurringView.swift; sourceTree = "<group>"; };
+		502DCA50228412C6009C50F5 /* JSShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSShadowView.swift; sourceTree = "<group>"; };
+		502DCA51228412C6009C50F5 /* JSDimmingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSDimmingView.swift; sourceTree = "<group>"; };
+		502DCA52228412C6009C50F5 /* JSObscurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSObscurable.swift; sourceTree = "<group>"; };
+		502DCA53228412C6009C50F5 /* JSSeparator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSSeparator.swift; sourceTree = "<group>"; };
+		502DCA59228416D7009C50F5 /* JSLockerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSLockerController.swift; sourceTree = "<group>"; };
+		502DCA5B22842CFA009C50F5 /* JSResizingHandleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSResizingHandleView.swift; sourceTree = "<group>"; };
+		502DCA5D228516E9009C50F5 /* UIViewController+JSLocker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+JSLocker.swift"; sourceTree = "<group>"; };
+		502DCA5F228551A9009C50F5 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		502DCA61228558A9009C50F5 /* LockerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockerViewController.swift; sourceTree = "<group>"; };
 		503A33412282DA5900A501C1 /* JSLocker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSLocker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		503A33502282DA6600A501C1 /* JSLocker-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSLocker-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		503A33632282DB1600A501C1 /* JSLocker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSLocker.h; sourceTree = "<group>"; };
@@ -49,9 +79,9 @@
 		503A33682282DB1600A501C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		503A336A2282DB1600A501C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		503A336D2282DB1600A501C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		503A336F2282DB1600A501C1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		503A33712282DB1600A501C1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		503A33732282DB1600A501C1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		503A338A2282DF0900A501C1 /* JSLockerConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSLockerConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +103,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		502DCA4422841112009C50F5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				502DCA4922841289009C50F5 /* CALayer+JSLocker.swift */,
+				502DCA4A22841289009C50F5 /* UIColor+JSLocker.swift */,
+				502DCA4822841289009C50F5 /* UIView+JSLocker.swift */,
+				502DCA5D228516E9009C50F5 /* UIViewController+JSLocker.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		502DCA4E228412C6009C50F5 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				502DCA4F228412C6009C50F5 /* JSBlurringView.swift */,
+				502DCA50228412C6009C50F5 /* JSShadowView.swift */,
+				502DCA51228412C6009C50F5 /* JSDimmingView.swift */,
+				502DCA52228412C6009C50F5 /* JSObscurable.swift */,
+				502DCA53228412C6009C50F5 /* JSSeparator.swift */,
+				502DCA5B22842CFA009C50F5 /* JSResizingHandleView.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
 		503A33372282DA5900A501C1 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +148,7 @@
 		503A33622282DB1600A501C1 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				503A33872282DE6900A501C1 /* Core */,
 				503A33632282DB1600A501C1 /* JSLocker.h */,
 				503A33642282DB1600A501C1 /* Info.plist */,
 			);
@@ -140,7 +195,8 @@
 		503A336E2282DB1600A501C1 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				503A336F2282DB1600A501C1 /* ViewController.swift */,
+				502DCA5F228551A9009C50F5 /* DemoViewController.swift */,
+				502DCA61228558A9009C50F5 /* LockerViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -159,6 +215,19 @@
 				503A33732282DB1600A501C1 /* Info.plist */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		503A33872282DE6900A501C1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				503A338A2282DF0900A501C1 /* JSLockerConstants.swift */,
+				502DCA59228416D7009C50F5 /* JSLockerController.swift */,
+				502DCA152283BEA5009C50F5 /* JSLockerPresentationController.swift */,
+				502DCA132283B488009C50F5 /* JSLockerTransitionAnimator.swift */,
+				502DCA4E228412C6009C50F5 /* Controls */,
+				502DCA4422841112009C50F5 /* Extensions */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +293,7 @@
 				TargetAttributes = {
 					503A33402282DA5900A501C1 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					503A334F2282DA6600A501C1 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -274,6 +344,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				502DCA162283BEA5009C50F5 /* JSLockerPresentationController.swift in Sources */,
+				503A338B2282DF0900A501C1 /* JSLockerConstants.swift in Sources */,
+				502DCA4C22841289009C50F5 /* CALayer+JSLocker.swift in Sources */,
+				502DCA55228412C6009C50F5 /* JSShadowView.swift in Sources */,
+				502DCA62228558A9009C50F5 /* LockerViewController.swift in Sources */,
+				502DCA58228412C6009C50F5 /* JSSeparator.swift in Sources */,
+				502DCA5E228516E9009C50F5 /* UIViewController+JSLocker.swift in Sources */,
+				502DCA57228412C6009C50F5 /* JSObscurable.swift in Sources */,
+				502DCA142283B488009C50F5 /* JSLockerTransitionAnimator.swift in Sources */,
+				502DCA54228412C6009C50F5 /* JSBlurringView.swift in Sources */,
+				502DCA60228551A9009C50F5 /* DemoViewController.swift in Sources */,
+				502DCA5A228416D7009C50F5 /* JSLockerController.swift in Sources */,
+				502DCA5C22842CFA009C50F5 /* JSResizingHandleView.swift in Sources */,
+				502DCA4B22841289009C50F5 /* UIView+JSLocker.swift in Sources */,
+				502DCA4D22841289009C50F5 /* UIColor+JSLocker.swift in Sources */,
+				502DCA56228412C6009C50F5 /* JSDimmingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +368,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				503A33802282DB3E00A501C1 /* AppDelegate.swift in Sources */,
-				503A337F2282DB3B00A501C1 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +529,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -460,6 +546,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sibo.jian.JSLocker;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -469,6 +556,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -493,6 +581,7 @@
 		503A33602282DA6800A501C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Demo/SupportingFiles/Info.plist;
@@ -510,6 +599,7 @@
 		503A33612282DA6800A501C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Demo/SupportingFiles/Info.plist;
