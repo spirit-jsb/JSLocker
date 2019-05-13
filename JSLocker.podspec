@@ -1,4 +1,4 @@
-Pod :: Spec.new do |s|
+Pod::Spec.new do |s|
 
     s.name    = 'JSLocker'
     s.version = '1.0.0'
