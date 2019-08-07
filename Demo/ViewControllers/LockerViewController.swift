@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import JSLocker
 
 class LockerViewController: DemoViewController {
 

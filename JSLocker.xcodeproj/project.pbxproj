@@ -20,8 +20,6 @@
 		502DCA5A228416D7009C50F5 /* JSLockerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502DCA59228416D7009C50F5 /* JSLockerController.swift */; };
 		502DCA5C22842CFA009C50F5 /* JSResizingHandleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502DCA5B22842CFA009C50F5 /* JSResizingHandleView.swift */; };
 		502DCA5E228516E9009C50F5 /* UIViewController+JSLocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502DCA5D228516E9009C50F5 /* UIViewController+JSLocker.swift */; };
-		502DCA60228551A9009C50F5 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502DCA5F228551A9009C50F5 /* DemoViewController.swift */; };
-		502DCA62228558A9009C50F5 /* LockerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502DCA61228558A9009C50F5 /* LockerViewController.swift */; };
 		503A33742282DB1600A501C1 /* JSLocker.h in Headers */ = {isa = PBXBuildFile; fileRef = 503A33632282DB1600A501C1 /* JSLocker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		503A337C2282DB3000A501C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503A33672282DB1600A501C1 /* LaunchScreen.storyboard */; };
 		503A337D2282DB3300A501C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503A33692282DB1600A501C1 /* Main.storyboard */; };
@@ -30,6 +28,9 @@
 		503A33822282DB9700A501C1 /* JSLocker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503A33412282DA5900A501C1 /* JSLocker.framework */; };
 		503A33832282DB9700A501C1 /* JSLocker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 503A33412282DA5900A501C1 /* JSLocker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		503A338B2282DF0900A501C1 /* JSLockerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503A338A2282DF0900A501C1 /* JSLockerConstants.swift */; };
+		507700D422FAC9C100A3A29B /* LockerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507700D222FAC9C000A3A29B /* LockerViewController.swift */; };
+		507700D522FAC9C100A3A29B /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507700D322FAC9C000A3A29B /* DemoViewController.swift */; };
+		507700D722FACA1900A3A29B /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507700D622FACA1900A3A29B /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,8 +71,6 @@
 		502DCA59228416D7009C50F5 /* JSLockerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSLockerController.swift; sourceTree = "<group>"; };
 		502DCA5B22842CFA009C50F5 /* JSResizingHandleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSResizingHandleView.swift; sourceTree = "<group>"; };
 		502DCA5D228516E9009C50F5 /* UIViewController+JSLocker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+JSLocker.swift"; sourceTree = "<group>"; };
-		502DCA5F228551A9009C50F5 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
-		502DCA61228558A9009C50F5 /* LockerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockerViewController.swift; sourceTree = "<group>"; };
 		503A33412282DA5900A501C1 /* JSLocker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSLocker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		503A33502282DA6600A501C1 /* JSLocker-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSLocker-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		503A33632282DB1600A501C1 /* JSLocker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSLocker.h; sourceTree = "<group>"; };
@@ -82,6 +81,9 @@
 		503A33712282DB1600A501C1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		503A33732282DB1600A501C1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		503A338A2282DF0900A501C1 /* JSLockerConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSLockerConstants.swift; sourceTree = "<group>"; };
+		507700D222FAC9C000A3A29B /* LockerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockerViewController.swift; sourceTree = "<group>"; };
+		507700D322FAC9C000A3A29B /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		507700D622FACA1900A3A29B /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,8 +197,9 @@
 		503A336E2282DB1600A501C1 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				502DCA5F228551A9009C50F5 /* DemoViewController.swift */,
-				502DCA61228558A9009C50F5 /* LockerViewController.swift */,
+				507700D322FAC9C000A3A29B /* DemoViewController.swift */,
+				507700D222FAC9C000A3A29B /* LockerViewController.swift */,
+				507700D622FACA1900A3A29B /* UIView+Extension.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -348,13 +351,11 @@
 				503A338B2282DF0900A501C1 /* JSLockerConstants.swift in Sources */,
 				502DCA4C22841289009C50F5 /* CALayer+JSLocker.swift in Sources */,
 				502DCA55228412C6009C50F5 /* JSShadowView.swift in Sources */,
-				502DCA62228558A9009C50F5 /* LockerViewController.swift in Sources */,
 				502DCA58228412C6009C50F5 /* JSSeparator.swift in Sources */,
 				502DCA5E228516E9009C50F5 /* UIViewController+JSLocker.swift in Sources */,
 				502DCA57228412C6009C50F5 /* JSObscurable.swift in Sources */,
 				502DCA142283B488009C50F5 /* JSLockerTransitionAnimator.swift in Sources */,
 				502DCA54228412C6009C50F5 /* JSBlurringView.swift in Sources */,
-				502DCA60228551A9009C50F5 /* DemoViewController.swift in Sources */,
 				502DCA5A228416D7009C50F5 /* JSLockerController.swift in Sources */,
 				502DCA5C22842CFA009C50F5 /* JSResizingHandleView.swift in Sources */,
 				502DCA4B22841289009C50F5 /* UIView+JSLocker.swift in Sources */,
@@ -367,6 +368,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				507700D522FAC9C100A3A29B /* DemoViewController.swift in Sources */,
+				507700D422FAC9C100A3A29B /* LockerViewController.swift in Sources */,
+				507700D722FACA1900A3A29B /* UIView+Extension.swift in Sources */,
 				503A33802282DB3E00A501C1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
