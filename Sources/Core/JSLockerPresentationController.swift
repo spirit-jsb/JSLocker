@@ -11,7 +11,7 @@ import UIKit
 class JSLockerPresentationController: UIPresentationController {
 
     private struct Constants {
-        static let cornerRadius: CGFloat = 14.0
+        static let cornerRadius: CGFloat = 0.0
         static let minVerticalMargin: CGFloat = 20.0
     }
     
