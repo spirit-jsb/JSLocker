@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
     s.ios.deployment_target = '9.0'
 
-    s.source = { :git => 'https://github.com/spirit-jsb/JSDrawer.git', :tag => s.version.to_s }
+    s.source = { :git => 'https://github.com/spirit-jsb/JSLocker.git', :tag => s.version.to_s }
 
     s.source_files = 'Sources/**/*.swift'
     
