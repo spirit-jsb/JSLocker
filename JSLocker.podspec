@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name    = 'JSLocker'
-    s.version = '1.0.0'
+    s.version = '1.0.1'
     s.summary = '一个简便易用的垂直滑动抽屉框架。'
 
     s.description = <<-DESC 
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
     s.swift_version = '5.0'
 
-    s.ios.deployment_target = '9.0'
+    s.ios.deployment_target = '10.0'
 
     s.source = { :git => 'https://github.com/spirit-jsb/JSLocker.git', :tag => s.version.to_s }
 
