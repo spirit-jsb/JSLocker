@@ -47,7 +47,7 @@ public init(barButtonItem: UIBarButtonItem, origin: CGFloat = -1.0, direction: J
 | 5.0   | >= 1.0.0 |
 
 ## 限制条件
-* **iOS 9.0** and Up
+* **iOS 10.0** and Up
 * **Xcode 10.0** and Up
 * **Swift Version = 5.0**
 
@@ -56,7 +56,7 @@ public init(barButtonItem: UIBarButtonItem, origin: CGFloat = -1.0, direction: J
 `JSLocker` 可以通过 [CocoaPods](https://cocoapods.org) 获得。安装只需要在你项目的 `Podfile` 中添加如下字段：
 
 ```ruby
-pod 'JSLocker', '~> 1.0.0'
+pod 'JSLocker', '~> 1.0.1'
 ```
 
 ## 作者
